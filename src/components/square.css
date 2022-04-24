@@ -1,0 +1,20 @@
+#squares {
+  display: grid;
+  width: 320px;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 3px;
+  margin: auto;
+}
+
+.square {
+  padding: 20px 5px;
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.square:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
